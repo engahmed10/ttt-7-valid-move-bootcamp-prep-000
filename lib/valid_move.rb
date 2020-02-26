@@ -2,7 +2,7 @@
 def valid_move?(board, index)
   if position_taken?(board, index)
       false
-    elseif board[index] == board[index]
+    elseif index == board[indexed]
 
   else
       true
